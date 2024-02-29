@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+.con{
+    width: 100%;
+    height: 100vh;
+    background: rgb(206, 221, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    background:#3a4452;
+    padding: 20px;
+    border-radius:10px ;
+}
+.cal form input{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    color:white;
+    font-size: 30px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+}
+form input.eql{
+    width: 125px;
+    color: red;
+}
+.cal form input:hover{
+    color: orange;
+    box-shadow: none;
+    width: 58px;
+    height: 58px;
+    border-radius: 10px;
+}
+
+form input.eql:hover{
+    color: greenyellow;
+    box-shadow: none;
+    width: 123px;
+    height: 58px;
+    border-radius: 10px;
+}
+
+
+form .text{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .text input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    color: white;
+}
+form input.op{
+    color: red;
+}
+form input.op:hover{
+    color: greenyellow;
+    box-shadow: none;
+    width: 58px;
+    height: 58px;
+    border-radius: 10px;    
+}
